@@ -130,7 +130,7 @@ class Torneo{
         $arrAsoc = ["equipoGanador"=> $OBJpartido->darEquipoGanador(),
          "premioPartido"=> $premio];
 
-        return $arrAsoc;
+        return $this->arrayToString($arrAsoc);
     }
 
     

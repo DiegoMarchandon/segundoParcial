@@ -80,7 +80,7 @@ $torneo->calcularPremioPartido($partido4);
 
 $torneo->calcularPremioPartido($partido5);
 
-$torneo->calcularPremioPartido($partido6);
+echo $torneo->calcularPremioPartido($partido6);
 
 // Realizar un echo del objeto  Torneo creado en (1).
 // echo $torneo;
