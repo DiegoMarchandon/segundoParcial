@@ -4,7 +4,7 @@ class Categoria{
 	private $descripcion;
 	 
 
-	public function __construct($idcategoria, $descripcion ){
+	public function __construct($idcategoria, $descripcion){
 		$this->idcategoria=$idcategoria;
 		$this->descripcion= $descripcion;
 	}
